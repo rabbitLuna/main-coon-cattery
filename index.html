@@ -1,11 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Питомник Мейн-Кунов</title>
 </head>
+
 <body>
-    
+    <header class="main-header"> 
+        <a class="main-header__logo-link">
+            <img class="main-header__logo-img" src="" alt="crown">
+        </a>
+    </header>
+    <main class="page-content">
+
+        <div class="hero">
+            <div class="hero__text">
+                <span class="desc hero__city">Новосибирск</span>
+                <h1 class="hero__main-heading">Питомник Мейн-кунов</h1>
+                <span class="desc hero__desc">Питомник с расширенным<br>спектром услуг</span>
+                <a class="botton hero__botton">Смотреть котиков</a>
+            </div>
+
+            <div class="hero__picture">
+                <img src="">
+            </div>
+        </div>
+
+        <ul class="social">
+            <li class="social__item">
+                <a class="social__item-link" href="#!">вк</a>
+            </li>
+            <li class="social__item">
+                <a class="social__item-link" href="#!">тви</a>
+            </li>
+            <li class="social__item">
+                <a class="social__item-link" href="#!">фб</a>
+            </li>
+        </ul>
+
+        <section class="pets">
+            <h2 class="heading pets__heading">Питомцы</h2>
+            <span class="desc pets__desc"> Все представители нашего питомника имеют ветеринарный паспорт<br>с отметками о
+                прививках и документ с родословной</span>
+
+            <div class="tabs">
+                <input class="tabs__input" type="radio" name="tab-btn" id="tab-btn-1" checked>
+                <label class="tabs__label" for="tab-btn-1">Коты</label>
+
+                <input class="tabs__input" type="radio" name="tab-btn" id="tab-btn-2">
+                <label class="tabs__label" for="tab-btn-2">Кошки</label>
+
+                <input class="tabs__input" type="radio" name="tab-btn" id="tab-btn-3">
+                <label class="tabs__label" for="tab-btn-3">Котята</label>
+
+
+                <div class="tabs__content" id="content-1">
+                    Содержимое
+                </div>
+
+                <div class="tabs__content" id="content-2">
+                    Содержимое
+                </div>
+
+                <div class="tabs__content" id="content-3">
+                    Содержимое
+                </div>
+            </div>
+
+            <a class="botton pets__botton">Смотреть больше</a>
+
+        </section>
+
+        <section class="breed-features">
+            <h2 class="heading breed-features__heading">Особенности породы</h2>
+            <span class="desc breed-features__desc">Мейн-Кун - это порода, которая вызывает к себе уважение. Приобретая в свой дом
+                этого питомца,<br>вы получите умное животное, которому нет равных </span>
+
+                <ul class="list">
+                    <li class="list__item">Легко уживается в семьях с детьми<br>или другими животными</li>
+                    <li class="list__item">Выполняет команды<br>как дрессированная собака</li>
+                    <li class="list__item">Внешний вид этой кошки<br>похож на дикую рысь</li>
+                    <li class="list__item">Вес может достигать<br>12 кг, а длина 1 м</li>
+                </ul>
+
+                <div class="circle">
+                    <img class="circle__img" src="рыжий котя">
+                </div>
+
+        </section>
+
+        <section class="advantages">
+            <h2 class="heading advantages__heading">Почему именно мы?</h2>
+            <span class="desc advantages__desc">Приобретая  животное в нашем питомнике, вы получите</span>
+
+            <div class="container">
+                <img class="container__img" src="" alt="">
+                <span class="desc container__desc"> Бесплатное ветеринарное<br>обслуживание 5 лет</span>
+            </div>
+
+            <div class="container">
+                <img class="container__img" src="" alt="">
+                <span class="desc container__desc">Консультирование по любому<br>вопросу 24 часа в сутки</span>
+            </div>
+
+            <div class="container">
+                <img class="container__img" src="" alt="">
+                <span class="desc container__desc">Индивидуальный подбор<br>питания для вашего кота</span>
+            </div>
+        </section>
+
+        <section class="care">
+            <h2 class="heading care__heading">Об уходе за Мейн-Куном</h2>
+
+            <div class="care-info">
+                <h3 class="care-info__caption">Шерсть</h3>
+                <span class="desc care-info__desc">Мы разработали 8 правил, следуя которым, шерсть вашего<br> 
+                    кота всегда будет блестящей, мягкой и послушной</span>
+            </div>
+            
+            <div class="care-info">
+                <h3 class="care-info__caption">Когти</h3>
+                <span class="desc care-info__desc">Нужно ли стричь когти? Это мы и выясним, плюс ко всему<br>
+                    расскажем как подобрать идеальную когтеточку</span>
+            </div>
+            
+            <div class="care-info">
+                <h3 class="care-info__caption">Уши и глаза</h3>
+                <span class="desc care-info__desc">Владельцам котов необходимо регулярно осматривать<br>
+                    ушки и глазасвоих питомцев, ведь это может быть<br>
+                    признаками заболевания</span>
+            </div>
+            
+            <div class="care-info">
+                <h3 class="care-info__caption">Питание</h3>
+                <span class="desc care-info__desc">В нашем питомнике существует два подхода: натуральное<br>
+                     питание и питание промышленными кормами, но выбирать<br>только вам</span>
+            </div>
+        </section>
+
+        <section class="our-team">
+            <h2 class="heading our-team__heading">Наша команда</h2>
+            <span class="desc our-team__desc">Все сотрудники нашего питомника  дипломированые специалисты<br>
+                в области фелинологии и ветеринарии</span>
+
+                <div class="photo">
+
+                </div>
+
+                <div class="">
+
+                </div>
+        </section>
+
+        <section class="question-answer">
+            <h2 class="heading question-answer__heading">Вопрос-ответ</h2>
+            <span class="desc question-answer__desc">Мы ответим на самые популярные ваши вопросы</span>
+
+            <div class="block-info">
+                
+            </div>
+            <div class="block-info"></div>
+            <div class="block-info"></div>
+            <div class="block-info"></div>
+        </section>
+
+        <section class="reviews">
+            <h2 class="heading reviews__heading">Отзывы</h2>
+        </section>
+    </main>
+    <footer class="main-footer"></footer>
+
 </body>
+
 </html>

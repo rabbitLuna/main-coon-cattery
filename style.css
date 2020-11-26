@@ -1,0 +1,242 @@
+:root {
+   --color-white: #ffffff;
+   --color-black0-1: #1F1C1D;
+   --сolor-black-5: #151313;
+   --color-brown-1: #DDD0C3;
+   --color-brown-5: #A07B50;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-black0-1);
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* main-header */
+
+.main-header__logo {
+
+}
+
+/* hero */
+
+.information__main-heading {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 52px;
+    line-height: 60px;
+    
+    color: var(--color-white);
+}
+
+
+/* общие */
+
+.heading {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: var(--color-white);
+}
+
+.desc {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: var(--color-brown-5);
+}
+
+.button {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 15px;
+
+    color: var(--color-white);
+}
+
+
+/* pets */
+
+.tabs {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: var(--color-white);
+}
+
+/* breed-features */
+
+.list-features__item {
+    list-style: none;
+    
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: var(--color-white);
+}
+
+
+/* advantages */
+
+.advantages__description {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 27px;
+
+    color: var(--color-white);
+}
+
+/* care */
+
+.care-content__heading {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: var(--color-5);
+}
+
+.care-content__info {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: var(--color-white);
+}
+
+/* our-team */
+
+.slider-info__heading {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: var(--color-brown-5);
+}
+
+.slider-info__desc {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: var(--color-brown-5);
+}
+
+.slider-info__description {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: var(--color-white);
+}
+
+.slider-info-social__item {
+    list-style: none;
+}
+
+/* question-answer */
+
+.question-answer__question {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: var(--color-brown-1);
+}
+
+.question-answer__text {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: var(--color-brown-1);
+}
+
+/* reviews */
+
+.reviews-content-info__heading {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: var(--color-white);
+}
+
+.reviews-content-info__text {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: var(--color-white);
+}
+
+.reviews-content-info__time {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: var(--color-brown-5);
+}
+
+.reviews-content-info__social-item {
+    list-style: none;
+}
+
+/* main-footer */
+
+.main-header__logo {
+
+}
+
+.main-footer__social-item {
+    list-style: none;
+}
+
+.main-footer__address {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 27px;
+
+    color: var(--color-brown-1);
+}
+
+.main-footer__phone {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 27px;
+
+    color: var(--color-brown-1);
+}
